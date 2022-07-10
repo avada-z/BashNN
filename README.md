@@ -9,3 +9,5 @@ To change the source model resolution, change number of steps in blankmodel() fu
 Add the blankmodel function to main() to create the initial model, then remove to continue training.
 
 Currently it will take .jpg images as negative examples and .png for positive to automate the training process, but you can uncomment and comment the check() function to match your needs.
+
+Use ./evaluator.sh image.png to test with trained model
